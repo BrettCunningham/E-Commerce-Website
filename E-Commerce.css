@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  padding: 10px;
+}
+
+.box {
+  background-color: #87ceeb;
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px; 
+  font-weight: bold; 
+  cursor: pointer;  /* Changes cursor to pointer when the mouse is over it */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+  transition: background-color 0.3s, transform 0.3s; /* Transitions -> Look into */
+}
+
+.box:hover {
+  background-color: #4682b4; /* Darkens the color when you hover over it */
+  transform: scale(1.05); /* Increasing the size when you hover over it */
+}
+
+img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
